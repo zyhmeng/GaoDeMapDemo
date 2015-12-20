@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0625AAD31C268BB0006C2B93 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0625AAD11C268BB0006C2B93 /* AMap.bundle */; };
+		0625AAD41C268BB0006C2B93 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0625AAD21C268BB0006C2B93 /* MAMapKit.framework */; };
+		0625AAD71C26BFF4006C2B93 /* GaoDeMapModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0625AAD61C26BFF3006C2B93 /* GaoDeMapModel.m */; };
+		0625AAE01C26DAF9006C2B93 /* PaopaoViewClicked.m in Sources */ = {isa = PBXBuildFile; fileRef = 0625AADE1C26DAF9006C2B93 /* PaopaoViewClicked.m */; };
+		0625AAE11C26DAF9006C2B93 /* PaopaoViewClicked.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0625AADF1C26DAF9006C2B93 /* PaopaoViewClicked.xib */; };
 		0689756B1C26820200D31344 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0689756A1C26820200D31344 /* main.m */; };
 		0689756E1C26820200D31344 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0689756D1C26820200D31344 /* AppDelegate.m */; };
 		068975711C26820200D31344 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068975701C26820200D31344 /* ViewController.m */; };
@@ -15,6 +20,20 @@
 		068975791C26820200D31344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068975771C26820200D31344 /* LaunchScreen.storyboard */; };
 		068975841C26820300D31344 /* GaoDeMapDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 068975831C26820300D31344 /* GaoDeMapDemoTests.m */; };
 		0689758F1C26820300D31344 /* GaoDeMapDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0689758E1C26820300D31344 /* GaoDeMapDemoUITests.m */; };
+		068975A31C2686FD00D31344 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068975A21C2686FD00D31344 /* UIKit.framework */; };
+		068975A51C26870600D31344 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068975A41C26870600D31344 /* Foundation.framework */; };
+		068975A71C26871200D31344 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068975A61C26871200D31344 /* CoreGraphics.framework */; };
+		068975A91C26871E00D31344 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068975A81C26871E00D31344 /* QuartzCore.framework */; };
+		068975AB1C26872800D31344 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068975AA1C26872800D31344 /* OpenGLES.framework */; };
+		068975AD1C26873200D31344 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068975AC1C26873200D31344 /* CoreLocation.framework */; };
+		068975AF1C26873E00D31344 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068975AE1C26873D00D31344 /* CoreTelephony.framework */; };
+		068975B11C26874C00D31344 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068975B01C26874C00D31344 /* SystemConfiguration.framework */; };
+		068975B31C26875600D31344 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 068975B21C26875600D31344 /* libz.tbd */; };
+		068975B51C26876100D31344 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 068975B41C26876100D31344 /* libstdc++.6.0.9.tbd */; };
+		068975B71C26876C00D31344 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 068975B61C26876C00D31344 /* libc++.tbd */; };
+		068975B91C26877500D31344 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068975B81C26877500D31344 /* Security.framework */; };
+		068975C01C26898000D31344 /* GaoDeMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068975BE1C26898000D31344 /* GaoDeMapViewController.m */; };
+		068975C11C26898000D31344 /* GaoDeMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068975BF1C26898000D31344 /* GaoDeMapViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0625AAD11C268BB0006C2B93 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
+		0625AAD21C268BB0006C2B93 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		0625AAD51C26BFF3006C2B93 /* GaoDeMapModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaoDeMapModel.h; sourceTree = "<group>"; };
+		0625AAD61C26BFF3006C2B93 /* GaoDeMapModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaoDeMapModel.m; sourceTree = "<group>"; };
+		0625AADD1C26DAF9006C2B93 /* PaopaoViewClicked.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaopaoViewClicked.h; sourceTree = "<group>"; };
+		0625AADE1C26DAF9006C2B93 /* PaopaoViewClicked.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaopaoViewClicked.m; sourceTree = "<group>"; };
+		0625AADF1C26DAF9006C2B93 /* PaopaoViewClicked.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaopaoViewClicked.xib; sourceTree = "<group>"; };
 		068975661C26820200D31344 /* GaoDeMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaoDeMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0689756A1C26820200D31344 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0689756C1C26820200D31344 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +77,21 @@
 		0689758A1C26820300D31344 /* GaoDeMapDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaoDeMapDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0689758E1C26820300D31344 /* GaoDeMapDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaoDeMapDemoUITests.m; sourceTree = "<group>"; };
 		068975901C26820300D31344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		068975A21C2686FD00D31344 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		068975A41C26870600D31344 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		068975A61C26871200D31344 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		068975A81C26871E00D31344 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		068975AA1C26872800D31344 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		068975AC1C26873200D31344 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		068975AE1C26873D00D31344 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		068975B01C26874C00D31344 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		068975B21C26875600D31344 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		068975B41C26876100D31344 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		068975B61C26876C00D31344 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		068975B81C26877500D31344 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		068975BD1C26898000D31344 /* GaoDeMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaoDeMapViewController.h; sourceTree = "<group>"; };
+		068975BE1C26898000D31344 /* GaoDeMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaoDeMapViewController.m; sourceTree = "<group>"; };
+		068975BF1C26898000D31344 /* GaoDeMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GaoDeMapViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +99,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				068975B91C26877500D31344 /* Security.framework in Frameworks */,
+				068975B71C26876C00D31344 /* libc++.tbd in Frameworks */,
+				068975B51C26876100D31344 /* libstdc++.6.0.9.tbd in Frameworks */,
+				068975B31C26875600D31344 /* libz.tbd in Frameworks */,
+				068975B11C26874C00D31344 /* SystemConfiguration.framework in Frameworks */,
+				068975AF1C26873E00D31344 /* CoreTelephony.framework in Frameworks */,
+				068975AD1C26873200D31344 /* CoreLocation.framework in Frameworks */,
+				068975AB1C26872800D31344 /* OpenGLES.framework in Frameworks */,
+				068975A91C26871E00D31344 /* QuartzCore.framework in Frameworks */,
+				068975A71C26871200D31344 /* CoreGraphics.framework in Frameworks */,
+				068975A51C26870600D31344 /* Foundation.framework in Frameworks */,
+				0625AAD41C268BB0006C2B93 /* MAMapKit.framework in Frameworks */,
+				068975A31C2686FD00D31344 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +132,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0625AAD01C268BB0006C2B93 /* GaoDeMap_SDK(V3.2.0) */ = {
+			isa = PBXGroup;
+			children = (
+				0625AAD11C268BB0006C2B93 /* AMap.bundle */,
+				0625AAD21C268BB0006C2B93 /* MAMapKit.framework */,
+			);
+			path = "GaoDeMap_SDK(V3.2.0)";
+			sourceTree = "<group>";
+		};
 		0689755D1C26820200D31344 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +164,8 @@
 		068975681C26820200D31344 /* GaoDeMapDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0625AAD01C268BB0006C2B93 /* GaoDeMap_SDK(V3.2.0) */,
+				068975BC1C2688DB00D31344 /* GaoDeMap */,
 				0689756C1C26820200D31344 /* AppDelegate.h */,
 				0689756D1C26820200D31344 /* AppDelegate.m */,
 				0689756F1C26820200D31344 /* ViewController.h */,
@@ -109,6 +174,7 @@
 				068975751C26820200D31344 /* Assets.xcassets */,
 				068975771C26820200D31344 /* LaunchScreen.storyboard */,
 				0689757A1C26820200D31344 /* Info.plist */,
+				068975BA1C2687FE00D31344 /* framework */,
 				068975691C26820200D31344 /* Supporting Files */,
 			);
 			path = GaoDeMapDemo;
@@ -138,6 +204,40 @@
 				068975901C26820300D31344 /* Info.plist */,
 			);
 			path = GaoDeMapDemoUITests;
+			sourceTree = "<group>";
+		};
+		068975BA1C2687FE00D31344 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				068975B81C26877500D31344 /* Security.framework */,
+				068975B61C26876C00D31344 /* libc++.tbd */,
+				068975B41C26876100D31344 /* libstdc++.6.0.9.tbd */,
+				068975B21C26875600D31344 /* libz.tbd */,
+				068975B01C26874C00D31344 /* SystemConfiguration.framework */,
+				068975AE1C26873D00D31344 /* CoreTelephony.framework */,
+				068975AC1C26873200D31344 /* CoreLocation.framework */,
+				068975AA1C26872800D31344 /* OpenGLES.framework */,
+				068975A81C26871E00D31344 /* QuartzCore.framework */,
+				068975A61C26871200D31344 /* CoreGraphics.framework */,
+				068975A41C26870600D31344 /* Foundation.framework */,
+				068975A21C2686FD00D31344 /* UIKit.framework */,
+			);
+			path = framework;
+			sourceTree = "<group>";
+		};
+		068975BC1C2688DB00D31344 /* GaoDeMap */ = {
+			isa = PBXGroup;
+			children = (
+				0625AAD51C26BFF3006C2B93 /* GaoDeMapModel.h */,
+				0625AAD61C26BFF3006C2B93 /* GaoDeMapModel.m */,
+				068975BD1C26898000D31344 /* GaoDeMapViewController.h */,
+				068975BE1C26898000D31344 /* GaoDeMapViewController.m */,
+				068975BF1C26898000D31344 /* GaoDeMapViewController.xib */,
+				0625AADD1C26DAF9006C2B93 /* PaopaoViewClicked.h */,
+				0625AADE1C26DAF9006C2B93 /* PaopaoViewClicked.m */,
+				0625AADF1C26DAF9006C2B93 /* PaopaoViewClicked.xib */,
+			);
+			path = GaoDeMap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +343,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0625AAD31C268BB0006C2B93 /* AMap.bundle in Resources */,
 				068975791C26820200D31344 /* LaunchScreen.storyboard in Resources */,
 				068975761C26820200D31344 /* Assets.xcassets in Resources */,
 				068975741C26820200D31344 /* Main.storyboard in Resources */,
+				0625AAE11C26DAF9006C2B93 /* PaopaoViewClicked.xib in Resources */,
+				068975C11C26898000D31344 /* GaoDeMapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +373,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0625AAE01C26DAF9006C2B93 /* PaopaoViewClicked.m in Sources */,
+				068975C01C26898000D31344 /* GaoDeMapViewController.m in Sources */,
 				068975711C26820200D31344 /* ViewController.m in Sources */,
+				0625AAD71C26BFF4006C2B93 /* GaoDeMapModel.m in Sources */,
 				0689756E1C26820200D31344 /* AppDelegate.m in Sources */,
 				0689756B1C26820200D31344 /* main.m in Sources */,
 			);
@@ -413,8 +519,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GaoDeMapDemo/GaoDeMap_SDK(V3.2.0)",
+				);
 				INFOPLIST_FILE = GaoDeMapDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = yunfeng.GaoDeMapDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -424,8 +535,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GaoDeMapDemo/GaoDeMap_SDK(V3.2.0)",
+				);
 				INFOPLIST_FILE = GaoDeMapDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = yunfeng.GaoDeMapDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -498,6 +614,7 @@
 				068975951C26820300D31344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		068975961C26820300D31344 /* Build configuration list for PBXNativeTarget "GaoDeMapDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +623,7 @@
 				068975981C26820300D31344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		068975991C26820300D31344 /* Build configuration list for PBXNativeTarget "GaoDeMapDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +632,7 @@
 				0689759B1C26820300D31344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

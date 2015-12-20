@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GaoDeMap/GaoDeMapViewController.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)gaoDeMap:(id)sender {
+    GaoDeMapViewController *gaoDeMapVC = [[GaoDeMapViewController alloc]init];
+    [self.navigationController pushViewController:gaoDeMapVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
