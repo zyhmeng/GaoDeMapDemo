@@ -11,5 +11,5 @@
 #define GaoDeMapKey   @"81fcff75be9f585b4b371ee4c8441443"
 
 @interface GaoDeMapViewController : UIViewController
-
+@property (strong, nonatomic) IBOutlet UIView *customPaopaoView;
 @end

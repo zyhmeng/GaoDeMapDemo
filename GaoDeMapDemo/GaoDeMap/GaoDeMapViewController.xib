@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GaoDeMapViewController">
             <connections>
+                <outlet property="customPaopaoView" destination="Yyo-Rg-JHJ" id="ofD-4k-Tj9"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -15,6 +16,110 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="705" y="323"/>
+        </view>
+        <view alpha="0.89999997615814209" contentMode="scaleToFill" restorationIdentifier="customPaopaoView" id="Yyo-Rg-JHJ" customClass="CustomAnnotationView">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="man" translatesAutoresizingMaskIntoConstraints="NO" id="77h-tN-Ybq">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="Mdo-pX-2NK"/>
+                        <constraint firstAttribute="height" constant="30" id="T3f-ZP-EyR"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="T3f-ZP-EyR"/>
+                            <exclude reference="Mdo-pX-2NK"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="T3f-ZP-EyR"/>
+                            <include reference="Mdo-pX-2NK"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="自定义" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ism-2k-WUU">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CustomPaopao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ca-yy-9jk">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="CzF-hf-9b1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="CzF-hf-9b1"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="CzF-hf-9b1"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="77h-tN-Ybq" firstAttribute="top" secondItem="Yyo-Rg-JHJ" secondAttribute="top" constant="20" id="amP-Jg-XSm"/>
+                <constraint firstAttribute="trailing" secondItem="5ca-yy-9jk" secondAttribute="trailing" id="cId-o4-3zr"/>
+                <constraint firstItem="77h-tN-Ybq" firstAttribute="leading" secondItem="Yyo-Rg-JHJ" secondAttribute="leading" constant="20" id="gwS-PV-G3Z">
+                    <variation key="heightClass=regular-widthClass=compact" constant="15"/>
+                </constraint>
+                <constraint firstItem="5ca-yy-9jk" firstAttribute="leading" secondItem="77h-tN-Ybq" secondAttribute="trailing" constant="20" id="hnR-bz-iR4"/>
+                <constraint firstItem="ism-2k-WUU" firstAttribute="leading" secondItem="77h-tN-Ybq" secondAttribute="trailing" constant="20" id="pVi-FH-8HF"/>
+                <constraint firstItem="5ca-yy-9jk" firstAttribute="top" secondItem="ism-2k-WUU" secondAttribute="bottom" constant="10" id="qL5-L9-Tlv"/>
+                <constraint firstAttribute="trailing" secondItem="ism-2k-WUU" secondAttribute="trailing" id="sT5-39-UPe"/>
+                <constraint firstItem="ism-2k-WUU" firstAttribute="top" secondItem="Yyo-Rg-JHJ" secondAttribute="top" constant="10" id="wfC-mq-Hef"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="77h-tN-Ybq"/>
+                    <exclude reference="ism-2k-WUU"/>
+                    <exclude reference="5ca-yy-9jk"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="amP-Jg-XSm"/>
+                    <exclude reference="gwS-PV-G3Z"/>
+                    <exclude reference="sT5-39-UPe"/>
+                    <exclude reference="pVi-FH-8HF"/>
+                    <exclude reference="wfC-mq-Hef"/>
+                    <exclude reference="cId-o4-3zr"/>
+                    <exclude reference="hnR-bz-iR4"/>
+                    <exclude reference="qL5-L9-Tlv"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="77h-tN-Ybq"/>
+                    <include reference="ism-2k-WUU"/>
+                    <include reference="5ca-yy-9jk"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="amP-Jg-XSm"/>
+                    <include reference="gwS-PV-G3Z"/>
+                    <include reference="sT5-39-UPe"/>
+                    <include reference="pVi-FH-8HF"/>
+                    <include reference="wfC-mq-Hef"/>
+                    <include reference="cId-o4-3zr"/>
+                    <include reference="hnR-bz-iR4"/>
+                    <include reference="qL5-L9-Tlv"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="342.5" y="249.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="man" width="32" height="32"/>
+    </resources>
 </document>

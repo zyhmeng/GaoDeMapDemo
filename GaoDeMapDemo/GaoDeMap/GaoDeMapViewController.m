@@ -9,6 +9,8 @@
 #import "GaoDeMapViewController.h"
 #import <MAMapKit/MAMapKit.h>
 #import "PaopaoViewClicked.h"
+#import "CustomAnnotationView.h"
+#import "CustomPointAnnotation.h"
 
 
 
@@ -16,6 +18,7 @@
 {
     MAMapView *_mapView;
 }
+
 @property (nonatomic, strong) MAUserLocation *userLocation;
 @end
 
@@ -42,8 +45,8 @@
     region.span.longitudeDelta = 0.08;
     _mapView.region = region;
     
+    //添加我的位置按钮
     UIView *bgView = [[UIView alloc]initWithFrame:CGRectMake(0, self.view.frame.size.height, self.view.frame.size.width, 30)];
-    
     bgView.backgroundColor = [UIColor whiteColor];
     bgView.alpha = 0.9;
     UIButton *myLocation = [[UIButton alloc]initWithFrame:CGRectMake(60, 0, 100, 30)];
@@ -52,6 +55,9 @@
     [myLocation addTarget:self action:@selector(myLocationClicked) forControlEvents:UIControlEventTouchUpInside];
     [bgView addSubview:myLocation];
     [_mapView addSubview:bgView];
+    
+    
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(customCalloutViewClicked) name:@"calloutViewClickedState" object:nil];
 
 }
 
@@ -67,6 +73,12 @@
     annotation.title = @"云峰";
     annotation.subtitle = @"绿地峰会天下";
     [_mapView addAnnotation:annotation];
+    CustomPointAnnotation *customPointAnnotation = [[CustomPointAnnotation alloc]init];
+    CLLocationCoordinate2D customCoordinate;
+    customCoordinate.latitude = 34.782879;
+    customCoordinate.longitude = 113.726475;
+    customPointAnnotation.coordinate = customCoordinate;
+    [_mapView addAnnotation:customPointAnnotation];
 }
 
 #pragma mark - MAMapViewDelegate
@@ -92,6 +104,21 @@
         
         pinAnnotation.rightCalloutAccessoryView = paopaoRightView;
         return pinAnnotation;
+    }else if ([annotation isKindOfClass:[CustomPointAnnotation class]])
+    {
+        static NSString *customAnnotationView = @"customAnnView";
+        CustomAnnotationView *customAnnView = (CustomAnnotationView *)[mapView dequeueReusableAnnotationViewWithIdentifier:customAnnotationView];
+        if (customAnnView == nil) {
+            customAnnView = [[CustomAnnotationView alloc]initWithAnnotation:annotation reuseIdentifier:customAnnotationView];
+            customAnnView.image = [UIImage imageNamed:@"start"];
+            
+            
+            // 设置中心点偏移，使得标注底部中间点成为经纬度对应点
+            customAnnView.centerOffset = CGPointMake(0, -18);
+            
+            return customAnnView;
+        }
+        
     }
     return nil;
 }
@@ -126,6 +153,15 @@ updatingLocation:(BOOL)updatingLocation
     _mapView.region = region;
 }
 
-
-
+#pragma mark - customCalloutViewClicked
+- (void)customCalloutViewClicked
+{
+    PaopaoViewClicked *paopaoVC = [[PaopaoViewClicked alloc]init];
+    paopaoVC.locationLatitude = self.userLocation.location.coordinate.latitude;
+    paopaoVC.locationLongitude = self.userLocation.location.coordinate.longitude;
+    paopaoVC.locationIcon = [UIImage imageNamed:@"man"];
+    paopaoVC.locationTitle = @"云峰";
+    paopaoVC.locationSubtitle = @"绿地峰会天下";
+    [self.navigationController pushViewController:paopaoVC animated:YES];
+}
 @end

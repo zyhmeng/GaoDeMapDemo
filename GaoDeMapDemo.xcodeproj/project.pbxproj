@@ -12,6 +12,10 @@
 		0625AAD71C26BFF4006C2B93 /* GaoDeMapModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0625AAD61C26BFF3006C2B93 /* GaoDeMapModel.m */; };
 		0625AAE01C26DAF9006C2B93 /* PaopaoViewClicked.m in Sources */ = {isa = PBXBuildFile; fileRef = 0625AADE1C26DAF9006C2B93 /* PaopaoViewClicked.m */; };
 		0625AAE11C26DAF9006C2B93 /* PaopaoViewClicked.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0625AADF1C26DAF9006C2B93 /* PaopaoViewClicked.xib */; };
+		067C83EC1C27D24D0091A6A0 /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 067C83EB1C27D24D0091A6A0 /* CustomAnnotationView.m */; };
+		067C83F21C27D9250091A6A0 /* CustomPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 067C83F11C27D9250091A6A0 /* CustomPointAnnotation.m */; };
+		067C83F51C27E4020091A6A0 /* CalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 067C83F41C27E4020091A6A0 /* CalloutView.m */; };
+		067C83F71C27E4160091A6A0 /* CalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067C83F61C27E4160091A6A0 /* CalloutView.xib */; };
 		0689756B1C26820200D31344 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0689756A1C26820200D31344 /* main.m */; };
 		0689756E1C26820200D31344 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0689756D1C26820200D31344 /* AppDelegate.m */; };
 		068975711C26820200D31344 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068975701C26820200D31344 /* ViewController.m */; };
@@ -61,6 +65,13 @@
 		0625AADD1C26DAF9006C2B93 /* PaopaoViewClicked.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaopaoViewClicked.h; sourceTree = "<group>"; };
 		0625AADE1C26DAF9006C2B93 /* PaopaoViewClicked.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaopaoViewClicked.m; sourceTree = "<group>"; };
 		0625AADF1C26DAF9006C2B93 /* PaopaoViewClicked.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaopaoViewClicked.xib; sourceTree = "<group>"; };
+		067C83EA1C27D24D0091A6A0 /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
+		067C83EB1C27D24D0091A6A0 /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationView.m; sourceTree = "<group>"; };
+		067C83F01C27D9250091A6A0 /* CustomPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPointAnnotation.h; sourceTree = "<group>"; };
+		067C83F11C27D9250091A6A0 /* CustomPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPointAnnotation.m; sourceTree = "<group>"; };
+		067C83F31C27E4020091A6A0 /* CalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalloutView.h; sourceTree = "<group>"; };
+		067C83F41C27E4020091A6A0 /* CalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalloutView.m; sourceTree = "<group>"; };
+		067C83F61C27E4160091A6A0 /* CalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalloutView.xib; sourceTree = "<group>"; };
 		068975661C26820200D31344 /* GaoDeMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaoDeMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0689756A1C26820200D31344 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0689756C1C26820200D31344 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -233,6 +244,13 @@
 				068975BD1C26898000D31344 /* GaoDeMapViewController.h */,
 				068975BE1C26898000D31344 /* GaoDeMapViewController.m */,
 				068975BF1C26898000D31344 /* GaoDeMapViewController.xib */,
+				067C83EA1C27D24D0091A6A0 /* CustomAnnotationView.h */,
+				067C83EB1C27D24D0091A6A0 /* CustomAnnotationView.m */,
+				067C83F01C27D9250091A6A0 /* CustomPointAnnotation.h */,
+				067C83F11C27D9250091A6A0 /* CustomPointAnnotation.m */,
+				067C83F31C27E4020091A6A0 /* CalloutView.h */,
+				067C83F41C27E4020091A6A0 /* CalloutView.m */,
+				067C83F61C27E4160091A6A0 /* CalloutView.xib */,
 				0625AADD1C26DAF9006C2B93 /* PaopaoViewClicked.h */,
 				0625AADE1C26DAF9006C2B93 /* PaopaoViewClicked.m */,
 				0625AADF1C26DAF9006C2B93 /* PaopaoViewClicked.xib */,
@@ -349,6 +367,7 @@
 				068975741C26820200D31344 /* Main.storyboard in Resources */,
 				0625AAE11C26DAF9006C2B93 /* PaopaoViewClicked.xib in Resources */,
 				068975C11C26898000D31344 /* GaoDeMapViewController.xib in Resources */,
+				067C83F71C27E4160091A6A0 /* CalloutView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +396,10 @@
 				068975C01C26898000D31344 /* GaoDeMapViewController.m in Sources */,
 				068975711C26820200D31344 /* ViewController.m in Sources */,
 				0625AAD71C26BFF4006C2B93 /* GaoDeMapModel.m in Sources */,
+				067C83EC1C27D24D0091A6A0 /* CustomAnnotationView.m in Sources */,
 				0689756E1C26820200D31344 /* AppDelegate.m in Sources */,
+				067C83F51C27E4020091A6A0 /* CalloutView.m in Sources */,
+				067C83F21C27D9250091A6A0 /* CustomPointAnnotation.m in Sources */,
 				0689756B1C26820200D31344 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
